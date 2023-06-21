@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<massage>
+  <massage
+    name="register"
+    code="1"
+    subject="נרשמת בהצלחה לאתר"
+    body="סיסמתך היא"    
+    >
+  </massage>
+  <massage
+     name="resetPassword"
+     code="2"
+     subject="איפוס סיסמא"
+     body="סיסמתך החדשה היא"
+    >
+  </massage>
+</massage>

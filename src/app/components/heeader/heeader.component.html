@@ -1,0 +1,33 @@
+<body>
+<nav class="navbar navbar-light bg-light">
+    <form class="container-fluid justify-content-start" style="padding-top: 2px;">
+      <img
+        src="./assets/logo.png"
+        alt="" loading="lazy"
+        style="height: 60px;
+        margin-right: 20px;
+        margin-top: -10px;"/>
+      <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myHome">דף הבית</button>
+
+  <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myLogin" *ngIf="myUserServise.isNoConect">התחבר</button>
+  <!-- <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myEdidPro" >chdh</button> -->
+
+      <button class="btn btn-outline-info me-2" type="button"routerLink="/myHeader/myRegister" *ngIf="myUserServise.isNoConect">הירשם</button>
+      <button class="btn btn-outline-info me-2" type="button" *ngIf="myUserServise.isConect" (click)=LogOut()>התנתק</button>
+      <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myAbout">אודות</button>
+      <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myPersonalArea" *ngIf="myUserServise.isConect">איזור אישי</button>
+      <!-- <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myTryCarousel">קרוסלה</button> -->
+      <!-- <button class="btn btn-outline-info me-2" type="button" routerLink="/myHeader/myTryTableComponent">טבלה</button> -->
+
+      <button *ngIf="myUserServise.isConect" type="button" routerLink="/myHeader/myEdit" class="btn btn-outline-info me-2" style="margin-right: 15px;  min-width: 20px; width: auto; padding: 5px;">
+        <mdb-icon style="margin-left: 8px;"  far icon="edit" size="x" (click)=edit()></mdb-icon>עריכת פרטים</button>
+      <p *ngIf="myUserServise.isConect" class="text-info"  style="margin-right: 77%; margin-top: -4%; font-family: cursive;">
+   שלום ל{{myUserServise.currentUser.firstName}}  </p>
+      <p class="text-info" style="margin-right: 88%; margin-top: -4%; font-family: cursive;" > {{myDate| date:"  dd/MM/yyyy hh:mm "}}</p>
+
+    </form>
+  </nav>
+  <router-outlet></router-outlet>
+
+  </body>
+  

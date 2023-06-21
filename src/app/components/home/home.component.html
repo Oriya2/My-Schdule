@@ -1,0 +1,92 @@
+
+<div class="row homeDiv" style="width: 100%;">
+  <div class="container" style="padding-top: 20px; width: 100%;">
+    <div>
+      <div style="background-color: #F0F0F0; height: 200px; padding: (20,20,20)">
+        <h3 class="text-info" style="text-decoration: underline; text-align: center;">סינונים ומיונים מהירים</h3>
+        <div class="text-info" style="padding: 35px; padding-top: 10px; width: 625px; float: right;">
+          <h4 class="text-info" style="text-decoration: underline; text-align: center;">סינונים</h4>
+
+          <br/>
+          <select class="browser-default custom-select buttonSort" name="select" [(ngModel)]="selectProfessional"
+            style="float: right; margin-top: 15px; margin-right: 5px; speak-as: initial;  height: 40px; margin-top: 0px;"
+            (change)="selectProf()">
+            <option>בחר שם</option>
+            <option aria-placeholder="בחר בעל עסק" *ngFor="let item of myProfessionalsService.lSelect" [value]="item.tz"
+              selected=selectProf()>
+              {{item.name}}
+            </option>
+          </select>
+
+          <select class="me-2 browser-default custom-select buttonSort" [(ngModel)]=" selectTypeProfessional"
+            (change)="selectTypeProf()" style="float: right;">
+            <option>בחר מקצוע</option>
+            <option *ngFor="let item of myTypeProfessionService.lSelect" [value]="item.professionalName"
+              selected=selectTypeProf()>
+              {{item.professionalName}}
+            </option>
+          </select>
+
+          <select class="browser-default custom-select buttonSort" name="select" [(ngModel)]="selectedAbility"
+          style="float: right; margin-top: 15px;margin-right: 5px; speak-as: initial;  height: 40px; margin-top: 0px;"
+          (change)="selectAbility()">
+          <option>בחר </option>
+          <option aria-placeholder="בחר בעל עסק" *ngFor="let item of myAbilityProfessionService.lAbilityForProfessional" [value]="item.nameability"
+            selected=selectAbility()>
+            {{item.nameability}}
+          </option>
+        </select>
+
+          <button  (click)=showAllProf() class="btn btn-outline-info me-2 buttonSort" style="float: right; margin-left: 35px;">בטל סינונים</button>
+
+        </div>
+        <div class="text-info" style="width: 484px; float: left; padding:45px; padding-top: 10px;">
+          <h4 class="text-info" style="text-decoration: underline; text-align: center;">מיונים</h4>
+          <br />
+          <!-- sortByProfName -->
+          <button style="width: 110px; margin-left: 10px;" (click)=sortArrayProfByName() class="btn btn-outline-info me-2 buttonSort">מיין לפי שם</button>
+
+          <!-- sortByName -->
+          <button style="width: 110px; margin-left: 10px;" (click)=sortByProfName() class="btn btn-outline-info me-2 buttonSort">מיין לפי מקצוע</button>
+
+          <!-- cancelSort() -->
+          <button style="width: 110px; margin-left: 10px;" (click)=cancelSort() class="btn btn-outline-info me-2 buttonSort">בטל
+            מיונים</button>
+
+        </div>
+      </div>
+
+
+
+      <div class="row" style="padding: 20px;  width: 1200px; ">
+        <div class="card" style="width:225px; height: 450px; margin: 20px; padding: 5px;"
+          *ngFor="let item of myProfessionalsService.lProfessional">
+          <img class="card-img-top" src="http://localhost:53661/pictures/{{item.pic}}" alt="Card image"
+            style="width: 200px; height: 200px; margin-right: 3px;">
+          <div style="direction: rtl; text-align: center;" class="card-body">
+            <p class="card-title">{{item.name}}</p>
+            <p class="card-text">{{item.mail}}</p>
+            <div style="height: 40px;">
+              <p class="card-text">{{item.nameProf}}</p>
+              <p class="card-text">{{item.realNameProf}}</p>
+
+            </div>
+            <a style="margin-bottom: 20px; font-size: 15px; " href="#" class="btn btn-info"
+              routerLink="/myHeader/myViewProfile/{{item.tz}}">לחצו פה לפרופיל שלי</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- מעודכן -->
+<ngb-carousel interval=2000 keyboard=true showNavigationArrows=true showNavigationIndicators=true
+  style=" padding: 0px; width: 100%;">
+  <ng-template *ngFor="let item of this.Recommend" ngbSlide>
+    <img class="card-img-top" src="./assets/{{item.pic}}.jpg">
+  </ng-template>
+</ngb-carousel>
+
+<app-footer style="width: 100%;"></app-footer>

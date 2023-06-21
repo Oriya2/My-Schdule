@@ -1,0 +1,30 @@
+button{
+    margin-right: 15px;
+    // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: unset;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+nav{
+
+    height: 75px;
+    padding-top: 15px;
+}
+
+p{
+    font-family: cursive;
+    color: btn-success;
+    
+    font-size: 15px;
+    
+}
+
+body{
+    direction: rtl;
+    
+}
+a:hover{
+    background-color: red;
+}

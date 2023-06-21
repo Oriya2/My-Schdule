@@ -1,0 +1,54 @@
+D:\פרויקט\mySchdule\BL\bin\Debug\BL.dll
+D:\פרויקט\mySchdule\BL\bin\Debug\BL.pdb
+D:\פרויקט\mySchdule\BL\bin\Debug\Dal.dll
+D:\פרויקט\mySchdule\BL\bin\Debug\Entities.dll
+D:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.dll
+D:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\פרויקט\mySchdule\BL\bin\Debug\Dal.pdb
+D:\פרויקט\mySchdule\BL\bin\Debug\Entities.pdb
+D:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.xml
+D:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\פרויקט\mySchdule\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\פרויקט\mySchdule\BL\obj\Debug\BL.dll
+D:\פרויקט\mySchdule\BL\obj\Debug\BL.pdb
+G:\פרויקט\mySchdule\BL\bin\Debug\BL.dll
+G:\פרויקט\mySchdule\BL\bin\Debug\BL.pdb
+G:\פרויקט\mySchdule\BL\bin\Debug\Dal.dll
+G:\פרויקט\mySchdule\BL\bin\Debug\Entities.dll
+G:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.dll
+G:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.dll
+G:\פרויקט\mySchdule\BL\bin\Debug\Dal.pdb
+G:\פרויקט\mySchdule\BL\bin\Debug\Dal.dll.config
+G:\פרויקט\mySchdule\BL\bin\Debug\Entities.pdb
+G:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.xml
+G:\פרויקט\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.xml
+G:\פרויקט\mySchdule\BL\obj\Debug\BL.csprojAssemblyReference.cache
+G:\פרויקט\mySchdule\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\פרויקט\mySchdule\BL\obj\Debug\BL.csproj.CopyComplete
+G:\פרויקט\mySchdule\BL\obj\Debug\BL.dll
+G:\פרויקט\mySchdule\BL\obj\Debug\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\BL.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\Dal.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\EntityFramework.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\EntityFramework.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\obj\Debug\BL.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\BL\obj\Debug\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\BL.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\Dal.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\EntityFramework.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\Dal.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\EntityFramework.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\obj\Debug\BL.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\BL\obj\Debug\BL.pdb

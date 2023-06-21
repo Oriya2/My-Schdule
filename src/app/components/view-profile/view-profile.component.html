@@ -1,0 +1,21 @@
+<div style=" margin: auto; 
+padding: auto;  width: 1200px;">
+  <div style="direction: rtl;  text-align: center;background-color: white; float: left; padding: auto; width: 700px; height: 600px;">
+    <p class="text-info" style="margin: auto; margin-bottom: 20px;">{{p.name}}</p>
+    <p class="text-info" style="margin: auto; margin-bottom: 20px;">{{p.about}}</p>
+    <h4 class="text-info" *ngIf="doesJobs" style="margin-bottom: 20px; text-decoration: underline;">אצלי תוכלו למצוא
+      שירות מצויין של:</h4>
+    <h4 class="text-info" *ngIf="!doesJobs" style="margin-bottom: 20px;">סורי אבל עדיין אין לי תחומים שיכולים לעזור לך,
+      נסה אולי בפעם הבאה...</h4>
+    <p class="text-info" style="margin: auto; margin-bottom: 20px;" *ngFor="let h of p.jobs">{{h}} </p>
+    <button (click)="doedConect(p.tz)" style="margin: auto; margin-top: 10px;" class="btn btn-outline-info me-2"> לקביעת
+      פגישה לחצו כאן</button>
+      <p class="text-info" style="margin: auto; margin-bottom: 20px;">
+      <br>
+        <a style="text-decoration: underline;" class="text-info" href="mailto:{{p.mail}}">שלח מייל ל{{p.name}}</a>
+      </p>
+  </div>
+  <img class="img-rounded" src="http://localhost:53661/pictures/{{p.pic}}" style="width: 450px; height: 450px; float: right;">
+  <br>
+</div>
+<app-footer style="width: 100%;"></app-footer>

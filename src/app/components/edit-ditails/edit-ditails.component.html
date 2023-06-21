@@ -1,0 +1,157 @@
+<body>
+  <div style="margin-top: 20px;">
+    <h2 class="text-info">עריכת פרטים</h2>
+    <nav class="navbar navbar-light bg-light">
+      <form class="container-fluid justify-content-start" style="padding-top: 2px;">
+        <button style="margin-left: 15px; width: 180px;" (click)="deleteUser()" class="btn btn-info me-3"
+          type="button">למחיקת חשבונך מהאתר</button>
+        <button style="margin-left: 15px; width: 180px;" (click)="fun()" class="btn btn-info me-2" type="button">הרשמה
+          כבעל מקצוע</button>
+        <button style="margin-left: 15px; width: 180px;"*ngIf="myProfessionalsService.ifProf"  (click)="fun1()" class="btn btn-info me-2" type="button">הוספת
+          יכולת</button>
+      </form>
+    </nav>
+    <!-- הוספת יכולת -->
+    <div style="height: auto;" *ngIf="isShow1">
+      <form style=" height: 30px;" class="form-group" (ngSubmit)="addAbility()"
+        #myFrm="ngForm">
+        <nav style=" height: 33px; " class="navbar navbar-light bg-light">
+          <p *ngFor="let item of myProfessionalsService.currentProf.nameProf">{{item}}</p>
+          <select name="selectAbility"class="me-2 browser-default custom-select buttonSort"  [(ngModel)]="TypeAbility.abilityCode"
+            style="margin-right: 5px; speak-as: initial;width: auto;" (change)="selectAbility()">
+            <option *ngFor="let item of lTypeAbility1" selected="selectAbility()" [value]="item.abilityCode">
+              {{item.abilityName}}
+            </option>
+          </select>
+          <br>
+          <button type="submit" class="btn btn-info" style="margin-left: 44%;">הוסף יכולת</button>
+        </nav>
+      </form>
+    </div>
+    <!-- הרשמה כבעל מקצוע -->
+    <div style="height: auto;" *ngIf="isShow">
+      <form class="form-group" (ngSubmit)="addProf()" #myFrm="ngForm" href="tz">
+        <nav class="navbar navbar-light bg-light">
+          <input type="text" name="tz" placeholder="הכנס תעודת זהות" id="tz"
+            style="text-align: center;  margin-bottom: 0px;width: auto;" class="form form-control text-center"
+            [(ngModel)]="newProfessionals.tz">
+          <input type="text" name="about1" placeholder="כתוב קצת על עצמך" class="form form-control text-center"
+            style=" width: auto; margin-bottom: 0px;" [(ngModel)]="newProfessionals.about">
+          <select name="selectAbility" class="me-2 browser-default custom-select buttonSort" [(ngModel)]="TypeAbility.professionalTypeCode" 
+          style="width: auto; speak-as: initial;"
+            (change)="ShowAbility(TypeAbility.professionalTypeCode)">
+            <option *ngFor="let item of myTypeProfessionService.lTypeProfession" [value]="item.professionalTypeCode"
+              selected=ShowAbility(item.professionalTypeCode)>
+              {{item.professionalName}}
+            </option>
+          </select>
+          <select name="selectAbility"class="me-2 browser-default custom-select buttonSort"  [(ngModel)]="selectedProffesionalAbility1" 
+          style="speak-as: initial;width: auto;"
+            (change)="selectAbility()">
+            <option *ngFor="let item of lTypeAbility" selected="selectAbility()" [value]="item.abilityCode">
+              {{item.abilityName}}
+            </option>
+          </select>
+          <label>בחר תמונה</label>
+          <input placeholder="בחר תמונה" type="file" style=" width: 200px;"
+            (change)="mychange($event)"><br>
+          <button type="submit" class="btn btn-info" style="margin-left: 15px; "
+            [disabled]="!myFrm.valid">הירשם</button>
+        </nav>
+      </form>
+    </div>
+    <form style="height: 500px;" (ngSubmit)="updateUsers()" #myFrm="ngForm">
+      <div style="padding: 35px; padding-top: 10px; width: 600px; float: right;">
+        <h3 style="text-align: center;">פרטים אישיים</h3>
+        <input #myTz="ngModel" type="text" [value]="myUsersService.currentUser.tz " name="tz"
+          placeholder="הכנס תעודת זהות" style="text-align: center; margin-left: 300px;  margin-bottom: 0px;"
+          class="form form-control text-center" [(ngModel)]="updateUser.tz" required>
+        <div *ngIf="myTz.invalid && (myTz.touched || myTz.dirty )" class="alert-danger form form-control text-center">
+          תעודת זהות היא שדה חובה</div>
+        <input #myFN="ngModel" type="text" [value]="myUsersService.currentUser.firstName" name="firstName"
+          placeholder="הכנס שם פרטי" class="form form-control text-center"
+          style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" [(ngModel)]="updateUser.firstName"
+          required>
+        <!-- pattern="[א-תa-zA-Z]" > -->
+        <!-- minlength="2"> -->
+        <div *ngIf="myFN.invalid && (myFN.touched || myFN.dirty )" class="alert-danger form form-control text-center">
+          שם
+          הוא שדה חובה</div>
+        <!-- <div *ngIf="myFN.errors.minlength" class="alert-danger form form-control text-center">  שם חייב להיות לפחות 2 תווים</div> -->
+        <!-- <div *ngIf="myFN.errors.pattern" class="alert-danger form form-control text-center"> שם חייב להכיל אותיות בלבד, ולפחות 2 תווים</div> -->
+        <!-- <div *ngIf="myFN.errors.pattern" class="alert-danger form form-control text-center">שם מכיל אותיות בלבד</div> -->
+        <input #myLN="ngModel" type="text" name="lastName" [value]="myUsersService.currentUser.lastName"
+          placeholder="הכנס שם משפחה" class="form form-control text-center"
+          style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" [(ngModel)]="updateUser.lastName" required>
+        <div *ngIf="myLN.invalid && (myLN.touched || myLN.dirty )" class="alert-danger form form-control text-center">
+          שם
+          משפחה הוא שדה חובה</div>
+
+        <input #myPassword="ngModel" type="password" name="password" [value]="myUsersService.currentUser.password"
+          placeholder="הכנס סיסמא" class="form form-control text-center"
+          style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" [(ngModel)]="updateUser.password" required>
+        <div *ngIf="myPassword.invalid && (myPassword.touched || myPassword.dirty )"
+          class="alert-danger form form-control text-center"> סיסמא הוא שדה חובה</div>
+
+        <input #myMail="ngModel" type="text" name="mail" [value]="myUsersService.currentUser.mail"
+          placeholder="הכנס כתובת מייל" class="form form-control text-center"
+          style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" [(ngModel)]="updateUser.mail" required>
+        <div *ngIf="myMail.invalid && (myMail.touched || myMail.dirty )"
+          class="alert-danger form form-control text-center"> מייל הוא שדה חובה</div>
+
+        <input #myPhone="ngModel" type="text" name="phone" [value]="myUsersService.currentUser.phone"
+          placeholder="הכנס מספר פלאפון" class="form form-control text-center"
+          style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" [(ngModel)]="updateUser.phone" required>
+        <div *ngIf="myPhone.invalid && (myPhone.touched || myPhone.dirty )"
+          class="alert-danger form form-control text-center"> פלאפון הוא שדה חובה</div>
+        <br>
+        <!-- <div >
+           style="width: 1200px; direction: rtl; margin-left: 5%;background-color: seagreen;" 
+          <p class="text-info"></p>
+</div>  -->
+
+      </div>
+
+
+      <div style="float: left; " *ngIf="myProfessionalsService.ifProf">
+        <div style="padding: 35px; padding-top: 10px; float: left;width: 600px; ">
+          <h3 style="text-align: center;">פרטים מקצועיים</h3>
+
+
+          <label class="text-info" style="float: right; ">:בחר תמונה</label>
+          <input class="btn" style="float: right; " type="file" (change)="mychange($event)"><br>
+          <input #myAbout="ngModel" type="text" name="about" placeholder="כתוב קצת על עצמך"
+            class="form form-control text-center" style=" float: right; "[(ngModel)]="updateProfesional.about">
+          <br>
+          <select name="selectAbility"class="me-2 browser-default custom-select buttonSort"  [(ngModel)]="TypeAbilityExist.professionalTypeCode"
+            style="float: right; speak-as: initial;"
+            (change)="ShowAbilityExist(TypeAbilityExist.professionalTypeCode)">
+            <option *ngFor="let item of myTypeProfessionService.lTypeProfession" [value]="item.professionalTypeCode"
+              selected="ShowAbilityExist(TypeAbilityExist.professionalTypeCode)">
+              {{item.professionalName}}
+            </option>
+          </select>
+          <select name="selectAbility" class="me-2 browser-default custom-select buttonSort" [(ngModel)]="TypeAbility.abilityCode"
+            style="float: left; margin-top: 15px; speak-as: initial;" (change)="selectAbility()">
+            <option *ngFor="let item of lTypeAbility2" selected="selectAbility()" [value]="item.abilityCode">
+              {{item.abilityName}}
+            </option>
+          </select>
+
+        </div>
+
+      </div>
+      <button type="submit" class="btn btn-info" style="margin-left: 44%; margin-bottom: 20px;"
+        [disabled]="!myFrm.valid">שליחת פרטים</button>
+    </form>
+
+
+
+
+
+
+
+  </div>
+
+</body>
+<app-footer style="width: 100%;"></app-footer>

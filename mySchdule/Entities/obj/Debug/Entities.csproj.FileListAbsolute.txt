@@ -1,0 +1,44 @@
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\Entities.dll
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\Entities.pdb
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\Dal.dll
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\EntityFramework.dll
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\Dal.pdb
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\Dal.dll.config
+C:\Users\owner\Desktop\mySchdule\Entities\bin\Debug\EntityFramework.xml
+C:\Users\owner\Desktop\mySchdule\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\owner\Desktop\mySchdule\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\mySchdule\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\owner\Desktop\mySchdule\Entities\obj\Debug\Entities.dll
+C:\Users\owner\Desktop\mySchdule\Entities\obj\Debug\Entities.pdb
+D:\פרויקט\mySchdule\Entities\bin\Debug\Entities.dll
+D:\פרויקט\mySchdule\Entities\bin\Debug\Entities.pdb
+D:\פרויקט\mySchdule\Entities\bin\Debug\Dal.dll
+D:\פרויקט\mySchdule\Entities\bin\Debug\EntityFramework.dll
+D:\פרויקט\mySchdule\Entities\bin\Debug\Dal.pdb
+D:\פרויקט\mySchdule\Entities\bin\Debug\EntityFramework.xml
+D:\פרויקט\mySchdule\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\פרויקט\mySchdule\Entities\obj\Debug\Entities.dll
+D:\פרויקט\mySchdule\Entities\obj\Debug\Entities.pdb
+G:\פרויקט\mySchdule\Entities\bin\Debug\Entities.dll
+G:\פרויקט\mySchdule\Entities\bin\Debug\Entities.pdb
+G:\פרויקט\mySchdule\Entities\bin\Debug\Dal.dll
+G:\פרויקט\mySchdule\Entities\bin\Debug\EntityFramework.dll
+G:\פרויקט\mySchdule\Entities\bin\Debug\Dal.pdb
+G:\פרויקט\mySchdule\Entities\bin\Debug\Dal.dll.config
+G:\פרויקט\mySchdule\Entities\bin\Debug\EntityFramework.xml
+G:\פרויקט\mySchdule\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+G:\פרויקט\mySchdule\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+G:\פרויקט\mySchdule\Entities\obj\Debug\Entities.csproj.CopyComplete
+G:\פרויקט\mySchdule\Entities\obj\Debug\Entities.dll
+G:\פרויקט\mySchdule\Entities\obj\Debug\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\Dal.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\EntityFramework.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\Dal.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\EntityFramework.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\obj\Debug\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\Entities\obj\Debug\Entities.pdb

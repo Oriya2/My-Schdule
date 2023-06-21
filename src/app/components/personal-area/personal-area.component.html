@@ -1,0 +1,105 @@
+
+
+<div style="width: 1040px; direction: rtl; margin: auto;" class="container text-center">
+<h2 class="text-info" style="height: 50px; width: 840px; text-decoration: underline; margin: auto; margin-bottom: 10px;">כאן תוכלו לנהל את האיזור האישי שלכם</h2>
+<button style="text-align: center; margin-right: 0px; margin-bottom: 20px;" class="btn btn-info me-2" type="button" routerLink="/myHeader/myCalender" *ngIf="myUsersService.isConect" >למעבר ללוח השנה</button>
+<br>
+<button *ngIf="myProfessionalsService.ifProf" type="button" class="btn btn-danger"style="color:white;" ><span style="background-color: white;color: red;" class="badge">{{wait}}</span>פגישות מחכות לאישור </button>    
+<!-- <button type="button" class="btn btn-danger">יש לך  {{wait}} פגישות מחכות לאישור </button>         -->
+
+
+</div>
+
+<div  id="re" style="direction: rtl; margin: auto;" class="container text-center" *ngIf="todayMeeting">
+  <h4 class="text-info" style="width: 1040px; text-decoration: underline;">הפגישות שנקבעו לך עם לקוחות להיום:</h4>
+  <table class="table table-striped text-info" style="width: 350px; margin: auto;">
+    <tr style="text-align: center;"> 
+      <th>תאריך הכנסה</th>
+      <th>לקוח</th>
+      <th>בעל מקצוע</th>
+      <th>תאריך התחלה</th>
+      <th>תאריך סיום</th>
+      <th>סטטוס הפגישה</th>
+      <th>השירות הרצוי</th>
+    </tr>
+    <tbody class=" text-center"> 
+      <tr class="danger" *ngFor="let item of myTaskService.LTaskDay">
+        <td>{{item.code}}</td>
+        <td>{{item.nameClient}}</td>
+        <td>{{item.nameProfessional}}</td>
+        <td>{{item.startTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td>{{item.endTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td><button type="button">{{item.requireStatus}}</button></td>
+        <td>{{item.abilityName}}</td>
+    </tbody>
+  </table>
+  <br>
+</div>
+<div style="height: 20px;  width: 1040px;  direction: rtl; margin: auto;" class="text-info container text-center" *ngIf="!todayMeeting&&this.myProfessionalsService.ifProf">
+  לא נקבעו לך פגישות להיום</div>
+
+  <div style="width: 1040px; height: 100%; padding: 0 0 0 0;">
+<div  id="re2" style="float: left; direction: rtl; margin: auto;" class="myTable container text-center" *ngIf="this.myProfessionalsService.ifProf">
+  <h4 class="text-info" style="text-decoration: underline;">הפגישות שנקבעו לך עם לקוחות הם:</h4>
+  <table class="table table-striped text-info" style=" width: 350px; margin: auto;">
+    <tr style="text-align: center;">
+      <th>לקוח</th>
+      <th>תאריך התחלה</th>
+      <th>תאריך סיום</th>
+      <th>סטטוס הפגישה</th>
+      <th>השירות הרצוי</th>
+    </tr>
+    <tbody class=" text-center">
+      <tr class="danger" *ngFor="let item of myTaskService.LTaskProfessional">
+        <td>{{item.nameClient}}</td>
+        <!-- <td>{{item.nameProfessional}}</td> -->
+        <td>{{item.startTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td>{{item.endTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td id="ok" *ngIf="item.requireStatus==0;">
+          <button class="btn btn-success" type="button" (click)="enable(item.code)">לאשר</button>
+          <button class="btn btn-danger" type="button" (click)="disable(item.code)">לבטל</button>
+        </td>
+        <td *ngIf="item.requireStatus!=0;">
+        <p id="canacleOrSubmit" *ngIf="item.requireStatus==1; " class="text-info">
+          בוטלה
+        </p>
+        <p id="ok" *ngIf="item.requireStatus==2; " class="text-info">
+          אושרה
+        </p>
+      </td>
+      <td>{{item.nameAbilityCode}}</td>
+      <td style="width: 300px;">{{item.abilityName}}</td>
+
+    </tbody>
+  </table>
+  <br>
+</div>
+
+
+<div id="re3" style=" float: right; direction: rtl; margin: auto;" class="text-secondary myTable container text-center">
+  <h4 class="text-info" style="text-decoration: underline;">הפגישות שנקבעו לך עם בעלי מקצוע הם:</h4>
+  <table class="table table-striped text-info" style="width: 350px; margin: auto;">
+    <tr style="text-align: center;">
+
+      <!-- <th>לקוח</th> -->
+      <th>בעל מקצוע</th> 
+      <th>תאריך התחלה</th>
+      <th>תאריך סיום</th>
+      <th>סטטוס הפגישה</th>
+      <th>השירות הרצוי</th>
+    </tr>
+    <tbody class=" text-center">
+      <tr class="danger" *ngFor="let item of myTaskService.LTaskCustomer">
+
+        <td>{{item.nameProfessional}}</td>
+        <td>{{item.startTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td>{{item.endTime| date:"hh:mm dd/MM/yyyy"}}</td>
+        <td>{{item.massage}}</td>
+        <td>{{item.nameAbilityCode}}</td>
+    </tbody>
+  </table>
+  <br>
+</div>
+</div>
+
+<app-footer style="width: 100%;"></app-footer>

@@ -1,0 +1,139 @@
+<div style="margin-top: -20px;">
+  <h2 class="text-info" style="text-decoration: underline;">הרשמה</h2>
+  <form style="padding-left: 79px;" (ngSubmit)="addUser()" #myFrm="ngForm">
+
+    <input #myTz="ngModel" class="form form-control text-center" [(ngModel)]="newUser.tz" type="text" name="tz"
+      placeholder="הכנס תעודת זהות" style="text-align: center; margin-left: 300px;" required
+      maxlength="9" minlength="9" pattern="[0-9]*">
+
+    <div  *ngIf="myTz.invalid && (myTz.touched || myTz.dirty)">
+      <div class="alert-danger" *ngIf="myTz.errors.minlength" style="direction: rtl;">תעודת זהות חייבת להיות 9 ספרות</div>
+      <div class="alert-danger" *ngIf="myTz.errors.maxlength" style="direction: rtl;">תעודת זהות חייבת להיות 9 ספרות</div>
+      <div class="alert-danger" *ngIf="myTz.errors.pattern" style="direction: rtl;">תעודת זהות מכילה מספרים בלבד</div>
+      <div class="alert-danger">תעודת זהות היא שדה חובה</div>
+    </div>
+
+
+
+    <input #myFN="ngModel" class="form form-control text-center" [(ngModel)]="newUser.firstName" type="text"
+      name="firstName" placeholder="הכנס שם פרטי" style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;"
+      required minlength="2" pattern="[א-תa-zA-Z]*">
+
+    <div *ngIf="myFN.invalid && (myFN.touched || myFN.dirty)">
+      <div class="alert-danger" *ngIf="myFN.errors.minlength" style="direction: rtl;">שם חייב להכיל 2 תווים לפחות</div>
+      <div class="alert-danger" *ngIf="myFN.errors.pattern" style="direction: rtl;">שם מכיל אותיות בלבד</div>
+      <div class="alert-danger">שם הוא שדה חובה</div>
+    </div>
+
+    <input #myLN="ngModel" type="text" name="lastName" placeholder="הכנס שם משפחה"
+    class="form form-control text-center" style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;"
+    [(ngModel)]="newUser.lastName" required  minlength="2" pattern="[א-תa-zA-Z]*">
+
+    <div *ngIf="myLN.invalid && (myLN.touched || myLN.dirty)">
+      <div class="alert-danger" *ngIf="myLN.errors.minlength" style="direction: rtl;">שם חייב להכיל 2 תווים לפחות</div>
+      <div class="alert-danger" *ngIf="myLN.errors.pattern" style="direction: rtl;">שם מכיל אותיות בלבד</div>
+      <div class="alert-danger">שם הוא שדה חובה</div>
+    </div>
+    <input #myPassword="ngModel" type="password" placeholder="הכנס סיסמא" name=password  [(ngModel)]="newUser.password"
+    class="form form-control text-cen ter"
+    style="text-align: center;   margin-left: 300px; margin-top: 20px; margin-bottom: 0px;" required>
+  <div *ngIf="myPassword.invalid && (myPassword.touched || myPassword.dirty )"
+    class="alert-danger form form-control text-center" >
+    סיסמא היא שדה חובה
+  </div>
+  <input #myMail="ngModel" type="text" name="mail" placeholder="הכנס כתובת מייל"
+  class="form form-control text-center" style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;"
+  [(ngModel)]="newUser.mail"   pattern="[א-תa-zA-Z]*@gmail.com" required>
+  <div *ngIf="myMail.invalid && (myMail.touched || myMail.dirty)">
+    <div class="alert-danger" *ngIf="myMail.errors.pattern" style="direction: rtl;">כתובת מייל לא תקינה</div>
+    <div class="alert-danger">מייל הוא שדה חובה</div>
+  </div>
+  <input #myPhone="ngModel" type="text" name="phone" placeholder="הכנס מספר פלאפון"
+  class="form form-control text-center" style="margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;"
+  [(ngModel)]="newUser.phone" required maxlength="10" minlength="9" pattern="[0-9]*">
+  <div  *ngIf="myPhone.invalid && (myPhone.touched || myPhone.dirty)">
+    <div class="alert-danger" *ngIf="myPhone.errors.minlength" style="direction: rtl;">מספר טלאפון חייב להיות מינימום 9 ספרות</div>
+    <div class="alert-danger" *ngIf="myPhone.errors.maxlength" style="direction: rtl;">מספר פלאפון חייב להיות מקסימום 10 ספרות</div>
+    <div class="alert-danger" *ngIf="myPhone.errors.pattern" style="direction: rtl;">מספר פלאפון מכיל מספרים בלבד</div>
+    <div class="alert-danger">מספר פלאפון הוא שדה חובה</div>
+  </div>      <br>
+  <br>
+
+  <p style="text-align: center;"> 
+     <input type="checkbox" style="text-align: center;"name="checkclick" size="*3"placeholder="אני בעל מקצוע" [(ngModel)]="checked" (click)="ch()"> 
+אני בעל מקצוע</p>
+      <br>
+        <div *ngIf="aaa" style="text-align: center;" >
+          <label class="text-info">בחר תמונה</label><br>
+          <input type="file" (change)="mychange($event)" style="text-align: center;"><br>
+          <input #myAbout="ngModel" type="text" name="about" placeholder="כתוב קצת על עצמך"
+          class="form form-control text-center" style="  margin-top: 20px; margin-bottom: 0px;"
+          [(ngModel)]="newProfesional.about" required  minlength="4" pattern="[א-תa-zA-Z]*">
+          <div *ngIf="myAbout.invalid && (myAbout.touched || myAbout.dirty)">
+            <div class="alert-danger" *ngIf="myAbout.errors.minlength" style="direction: rtl;">אודות חייב להכיל 2 מילים לפחות</div>
+            <div class="alert-danger" *ngIf="myAbout.errors.pattern" style="direction: rtl;">אודות מכיל אותיות בלבד</div>
+            <div class="alert-danger">אודות הוא שדה חובה</div>
+          </div>       <br>
+
+          <select name="selectAbility" [(ngModel)]="selectedProffesionalAbility1"  style="margin-top: 15px; speak-as: initial;" 
+       (change)="selectAbility()">
+       <option>בחר מקצוע</option>
+         <option *ngFor="let item of myTypeProfessionService.lTypeProfession" [value]="item.professionalTypeCode"  selected=selectAbility() >
+           {{item.professionalName}}
+         </option>
+       </select>
+       </div>
+
+      
+
+
+
+    <button type="submit" class="btn btn-info" style="margin-left: 470px; margin-top: 20px;"
+      [disabled]="!myFrm.valid">הירשם</button>
+
+  </form>
+  <app-footer style="width: 100%;"></app-footer>
+
+</div>
+
+
+
+
+
+
+
+    
+ <!--      <div style="text-align: center;"> -->
+<!-- <button  type="button" (click)="ch()">אני בעל מקצוע</button> -->
+<!-- <input  type="checkbox" (click)="ch()">אני בעל מקצוע -->
+
+<!-- </div> -->
+<!-- <input type="checkbox" name="checkclick" size="*3"
+        placeholder="אני בעל מקצוע" [(ngModel)]="checked" (click)="ch()"> אני בעל מקצוע
+      <br> -->
+<!-- *ngIf="good==true" -->
+
+<!-- <p [hidden]="aaa">dfg</p> -->
+<!-- <div *ngIf="aaa" style="text-align: center;" >
+        <label class="text-info">בחר תמונה</label><br>
+        <input type="file" (change)="mychange($event)" style="text-align: center;"><br>
+        <div><input #myAbout="ngModel" type="text" name="about" placeholder="כתוב קצת על עצמך"
+          class="form form-control text-center" style="  margin-top: 20px; margin-bottom: 0px;"
+          [(ngModel)]="newProfesional.about"></div>
+          <br>
+       <div>
+         <select name="selectAbility" [(ngModel)]="selectedProffesionalAbility1"  style="margin-top: 15px; speak-as: initial;" 
+        (change)="selectAbility()">
+        <option>בחר מקצוע</option>
+          <option *ngFor="let item of myTypeProfessionService.lTypeProfession" [value]="item.professionalTypeCode"  selected=selectAbility() >
+            {{item.professionalName}}
+          </option>
+        </select>
+      </div> 
+        <br>
+      </div>
+      <button type="submit" class="btn btn-info" style="margin-left: 470px; margin-top: 20px;"
+        [disabled]="myFrm.valid">הירשם</button>
+    </form>
+    <app-footer style="width: 100%;"></app-footer>
+  </div> -->

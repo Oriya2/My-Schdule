@@ -1,0 +1,27 @@
+<body>
+  <div style="margin-top: 40px; padding: auto;">
+    <h2 style="text-decoration: underline;margin-top: -20px;">קביעת פגישה עם {{p.name}}</h2>
+    <form (ngSubmit)="addTasks()" #myFrm="ngForm">
+        <P class="text-info" style="text-align: center;">בחר תאריך</P>
+        <div style="text-align: center; padding: auto;" class="md-form">
+          <input style="text-align: center;" type="datetime-local" [(ngModel)]="timepicker" />
+        </div>
+        <div style="text-align: center; padding: auto;" class="md-form">
+
+        <P class="text-info" style="text-align: center;">בחר את השירות הרצוי</P>
+      <select name="select" [(ngModel)]="AbilityName" style="text-align: center;"
+        (change)="select()">
+        <option *ngFor="let item of p.jobs" [value]="item" selected=select()>
+
+          {{item}}
+        </option>
+      </select>
+      <br>
+    </div>
+
+      <button type="submit" class="btn btn-info" style="margin-left: 44% ;" [disabled]="!myFrm.valid">הוסף
+        פגישה</button>
+    </form>
+  </div>
+</body>
+<app-footer style="width: 100%;"></app-footer>

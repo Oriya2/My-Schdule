@@ -1,0 +1,20 @@
+<body>
+    <div style="margin-top: -20px;">
+      <h2>הוספת מקצוע</h2>
+    
+    
+      <form (ngSubmit)="addProffesional()" #myFrm="ngForm">
+        
+        <input type="text" name="tz" placeholder="הכנס תעודת זהות"  style="text-align: center; margin-left: 300px;  margin-bottom: 0px; margin-top: 20px;" class="form form-control text-center" [(ngModel)]="newProffosional.tz">
+        <input type="text" name="tz" placeholder="הכנס את הלוגו או את התמונה שלך"  style="text-align: center; margin-left: 300px; margin-top: 20px;  margin-bottom: 0px;" class="form form-control text-center" [(ngModel)]="newProffosional.mail">
+        <input type="text" name="tz" placeholder="ספר קצת על עצמך"  style="text-align: center; margin-left: 300px; margin-top: 20px;  margin-bottom: 0px;" class="form form-control text-center" [(ngModel)]="newProffosional.tz">
+       
+
+        <br>
+        <button type="submit" class="btn btn-info" style="margin-left: 44%; margin-top: 20px;"  >הוסף מקצוע</button>
+      </form>
+    </div>
+    
+    </body>
+    
+    

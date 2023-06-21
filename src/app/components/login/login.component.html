@@ -1,0 +1,30 @@
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<body>
+  <div style="margin-top: -20px; height: 310px;">
+    <h2 class="text-info" style="text-decoration: underline;">התחברות</h2>
+    <form style="margin-right: 260px;" class="form-group" (ngSubmit)="login()" #myFrm="ngForm">
+      
+      <input #myTz="ngModel" type="text" placeholder="הכנס תעודת זהות" name=tz [(ngModel)]="newUser.tz"
+        class="form form-control text-center"
+        style="text-align: center; margin-left: 300px;  margin-top: 20px; margin-bottom: 0px;" required>
+      <div *ngIf="myTz.invalid && (myTz.touched || myTz.dirty )" style=" margin-left: 400px;" 
+      class="alert-danger form form-control text-center" >
+
+        תעודת זהות היא שדה חובה
+      </div>
+
+      <input #myPassword="ngModel" type="password" placeholder="הכנס סיסמא" name=password [(ngModel)]="newUser.password"
+        class="form form-control text-cen ter"
+        style="text-align: center;   margin-left: 300px; margin-top: 20px; margin-bottom: 0px;" required>
+      <div *ngIf="myPassword.invalid && (myPassword.touched || myPassword.dirty )"
+        class="alert-danger form form-control text-center" >
+        סיסמא היא שדה חובה
+      </div>
+
+          <a><p style="width: 100px; margin-right: 12%;" class="forget text-info" routerLink="/myHeader/myResetPassword">שכחתי סיסמא</p></a>
+      <button  type="submit" class="btn btn-info" style="margin-right: -25%;" [disabled]="!myFrm.valid">התחבר</button>
+    </form>
+  </div>
+
+  <app-footer style="width: 100%;"></app-footer>
+</body>

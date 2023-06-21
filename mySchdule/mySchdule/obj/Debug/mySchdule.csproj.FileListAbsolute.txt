@@ -1,0 +1,260 @@
+D:\פרויקט\mySchdule\mySchdule\bin\ApplicationInsights.config
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\csc.exe
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\System.Collections.Immutable.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\System.Reflection.Metadata.dll
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\vbc.exe
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe
+D:\פרויקט\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe.config
+D:\פרויקט\mySchdule\mySchdule\bin\mySchdule.dll.config
+D:\פרויקט\mySchdule\mySchdule\bin\mySchdule.dll
+D:\פרויקט\mySchdule\mySchdule\bin\mySchdule.pdb
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Agent.Intercept.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Web.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Newtonsoft.Json.dll
+D:\פרויקט\mySchdule\mySchdule\bin\System.Net.Http.Formatting.dll
+D:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.dll
+D:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.WebHost.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Web.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\פרויקט\mySchdule\mySchdule\bin\Newtonsoft.Json.xml
+D:\פרויקט\mySchdule\mySchdule\bin\System.Net.Http.Formatting.xml
+D:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.xml
+D:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.WebHost.xml
+D:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+D:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+D:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.csprojResolveAssemblyReference.cache
+G:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.csproj.CoreCompileInputs.cache
+G:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+G:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+G:\פרויקט\mySchdule\mySchdule\bin\ApplicationInsights.config
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\csc.exe
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\System.Collections.Immutable.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\System.Reflection.Metadata.dll
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\vbc.exe
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe
+G:\פרויקט\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe.config
+G:\פרויקט\mySchdule\mySchdule\bin\mySchdule.dll.config
+G:\פרויקט\mySchdule\mySchdule\bin\mySchdule.dll
+G:\פרויקט\mySchdule\mySchdule\bin\mySchdule.pdb
+G:\פרויקט\mySchdule\mySchdule\bin\BL.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Dal.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Entities.dll
+G:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.dll
+G:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.SqlServer.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Agent.Intercept.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Web.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\פרויקט\mySchdule\mySchdule\bin\Newtonsoft.Json.dll
+G:\פרויקט\mySchdule\mySchdule\bin\System.Net.Http.Formatting.dll
+G:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.dll
+G:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.WebHost.dll
+G:\פרויקט\mySchdule\mySchdule\bin\BL.pdb
+G:\פרויקט\mySchdule\mySchdule\bin\Dal.pdb
+G:\פרויקט\mySchdule\mySchdule\bin\Dal.dll.config
+G:\פרויקט\mySchdule\mySchdule\bin\Entities.pdb
+G:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.xml
+G:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.SqlServer.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.Web.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\פרויקט\mySchdule\mySchdule\bin\Newtonsoft.Json.xml
+G:\פרויקט\mySchdule\mySchdule\bin\System.Net.Http.Formatting.xml
+G:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.xml
+G:\פרויקט\mySchdule\mySchdule\bin\System.Web.Http.WebHost.xml
+G:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.csproj.CopyComplete
+G:\פרויקט\mySchdule\mySchdule\obj\Debug\mySchdule.csprojAssemblyReference.cache
+D:\פרויקט\mySchdule\mySchdule\bin\BL.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Dal.dll
+D:\פרויקט\mySchdule\mySchdule\bin\Entities.dll
+D:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.dll
+D:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.SqlServer.dll
+D:\פרויקט\mySchdule\mySchdule\bin\BL.pdb
+D:\פרויקט\mySchdule\mySchdule\bin\Dal.pdb
+D:\פרויקט\mySchdule\mySchdule\bin\Entities.pdb
+D:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.xml
+D:\פרויקט\mySchdule\mySchdule\bin\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\ApplicationInsights.config
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\csc.exe
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\vbc.exe
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\mySchdule.dll.config
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\mySchdule.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\mySchdule.pdb
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\BL.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Dal.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Entities.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\EntityFramework.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.Web.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Newtonsoft.Json.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Net.Http.Formatting.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Web.Http.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Web.Http.WebHost.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\BL.pdb
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Dal.pdb
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Entities.pdb
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\EntityFramework.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.Web.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\Newtonsoft.Json.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Net.Http.Formatting.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Web.Http.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\bin\System.Web.Http.WebHost.xml
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+C:\Users\owner\Desktop\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+C:\Users\owner\Desktop\פרוייקט גמר\סרוור פרוייקט ניסיון\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\ApplicationInsights.config
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\csc.exe
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\vbc.exe
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\mySchdule.dll.config
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\mySchdule.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\mySchdule.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\BL.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Dal.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\EntityFramework.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.Web.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Newtonsoft.Json.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Net.Http.Formatting.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Web.Http.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Web.Http.WebHost.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\EntityFramework.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.Web.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\Newtonsoft.Json.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Net.Http.Formatting.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Web.Http.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\bin\System.Web.Http.WebHost.xml
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\obj\Debug\mySchdule.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+C:\Users\owner\Desktop\פרוייקט גמר\גיבויים\גיבוי 17.9\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\ApplicationInsights.config
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\csc.exe
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\vbc.exe
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\mySchdule.dll.config
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\mySchdule.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\mySchdule.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Dal.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Entities.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\EntityFramework.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\EntityFramework.SqlServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.Web.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Newtonsoft.Json.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Net.Http.Formatting.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Web.Http.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Web.Http.WebHost.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\BL.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Dal.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Entities.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\EntityFramework.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\EntityFramework.SqlServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.Web.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.ApplicationInsights.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\Newtonsoft.Json.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Net.Http.Formatting.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Web.Http.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\System.Web.Http.WebHost.xml
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\obj\Debug\mySchdule.dll
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\obj\Debug\mySchdule.pdb
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\obj\Debug\mySchdule.csprojResolveAssemblyReference.cache
+C:\Users\owner\Desktop\פרוייקט גמר\mySchdule\mySchdule\bin\BL.dll
